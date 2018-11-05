@@ -1,0 +1,56 @@
+
+.header
+{
+    float: right;
+}
+
+.border
+{
+    clear: right;
+    border: 5px solid blue;
+    min-width: 100%;
+}
+
+#leftimg
+{
+    float: left;
+    margin-right: 15px
+}
+
+.para
+{
+    width: auto;
+}
+
+.column {
+    float: left;
+    max-width: 30.3% ;
+    min-height: 31.5%;
+    padding: 15px;
+    border-style: groove;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer
+{
+    background-color: blue; 
+}
+.list
+{
+    list-style-type: none;
+}
+
+.abc
+{
+    display: inline;
+}
+.abc a
+{
+    color: white;
+}

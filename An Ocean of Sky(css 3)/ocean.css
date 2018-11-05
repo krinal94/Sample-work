@@ -1,0 +1,52 @@
+
+.container
+{
+    background-image: url("background.png");
+    min-height: auto;
+    width: 70%;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: inline-block;
+    margin: 20px 20px 20px 40px;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+img
+{
+    border: 15px solid white;
+   /* width: 45%;
+    min-height: 40%;
+    margin-left: 25%;
+    position: absolute;
+    margin-bottom: 2%;*/
+    margin-left: 14%;
+    margin-bottom: 3%;
+    margin-top: -5%;
+}
+
+.main
+{
+    border: 15px solid white;
+    background-image: url("content_back.png");
+    margin-left: 14%;
+    margin-bottom: 0%;
+    margin-right: 13%;
+    padding: 10px;
+}
