@@ -1,0 +1,18 @@
+
+#data
+{
+    background: cadetblue;
+    height: auto;
+    width: 47%;
+    padding: 25px;
+}
+
+#data_display
+{
+    float: right;
+    background: burlywood;
+    height: auto;
+    width: 46%;
+    margin-top: -280px;
+    padding: 25px;
+}

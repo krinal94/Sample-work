@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2 div</title>
+    <link rel="stylesheet" href="2div.css">
+    <script src="2div.js"></script>
+</head>
+<body>
+    <div id="data">
+        <form name="form_div">
+                First Name:<input id="fname" type="text" name="fname"><br><br>
+                Last Name:<input id="lname" type="text" name="lname"><br><br>
+                <label>Gender:</label> <br>
+                <input type="radio" id="genM" name="gender" value="Male"> Male<br>
+                <input type="radio" id="genF" name="gender" value="Female"> Female<br>
+                <input type="radio" id="genO" name="gender" value="Other"> Other<br><br>
+                State:
+                    <select name="state" id="states">
+                    <option value='None'>Select</option>
+                    <option value="USA">United States</option>
+                    <option value="IN">India</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="AUS">Australia</option>
+                    </select><br><br>
+        </form>
+        <button type="submit" onclick="myfunction()">Save</button>
+    </div>
+    <div id="data_display">
+    </div>
+</body>
+</html>

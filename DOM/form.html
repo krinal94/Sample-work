@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+    
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Registration Form</legend>
+    <div>
+    <form name="myform">
+        First Name:<input id="fname" type="text" name="fname"><br><br>
+        Last Name:<input id="lname" type="text" name="lname"><br><br>
+        <label id="gen">Gender:</label> <br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br><br>
+        State:
+            <select name="state" id="states">
+            <option value=''>Select</option>
+            <option value="USA">United States</option>
+            <option value="IN">India</option>
+            <option value="UK">United Kingdom</option>
+            <option value="AUS">Australia</option>
+            </select><br><br>
+        <input type="checkbox" id="accept" name="accept">I Accept<br><br>
+    </form>
+    <button type="submit" onclick="textboxcolor()">Submit</button>
+    </div>
+    </fieldset>
+
+    <p id="first_name"></p>
+    <p id="last_name"></p>
+    <p id="gender"></p>
+    <p id="st"></p>
+
+    <script src="form.js"></script>
+</body>
+</html>

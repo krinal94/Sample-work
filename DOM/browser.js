@@ -1,0 +1,1 @@
+document.getElementById("current_browser").innerHTML = "navigator name is" + navigator.appName;
