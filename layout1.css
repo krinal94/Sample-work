@@ -1,0 +1,59 @@
+div{
+    position: relative;
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+}
+.b1{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid yellow;
+    margin: 30px 10px;
+    padding-right: 10px;
+    min-height: 50px;
+    justify-content: space-between ;
+}
+.b2{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid red;
+    margin: 30px 10px 100px;
+    padding: 40px;
+    min-height: 5cm; 
+    justify-content: space-between;
+}
+p.box
+{
+    border: 1px solid blue;
+    height: auto; 
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p.s1
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid orangered; 
+    min-width: 15%;
+    margin: 10px 10px;
+}
+
+.s2
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid green;
+    margin: 10px 0px 10px 40px;
+    min-width:75%;
+    justify-content: flex-end;
+}
+
+p.sbox
+{
+    border: 2px solid blue;
+    min-height: 40px; 
+    min-width: 20%;
+    margin: 10px 10px 10px;
+}

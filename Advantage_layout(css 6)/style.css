@@ -1,0 +1,140 @@
+body
+{
+    background-color: #e6f2ff;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    height: auto;
+}
+
+.head.right
+{
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 10px; 
+}
+
+#nav1
+{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightgray;
+    padding: 0;
+}
+
+#list
+{
+    float: left;
+}
+
+#list a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#list a:hover:not(.active1) {
+    background-color: #789bd3;
+}
+
+.active1
+{
+    background-color: #274f8e;
+}
+
+#nav2
+{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #789bd3;
+    padding: 0;
+    margin: 0;
+}
+
+#step
+{
+    float: left;
+}
+
+#step a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px; 
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#step a:hover:not(.active2) {
+    background-color: #274f8e;
+    width: 100%;
+}
+
+.cars Sbtn
+{
+    background-image: url('images/select_gr_btn.gif');  
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 65%;
+    margin-top: 15px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+#price
+{
+    margin: 0;
+}
+
+.icon1
+{
+    margin-right: 7px;
+}
+
+.itinerary{
+    display: inline-block;
+    float: right;
+    height: 40%;
+    width: 32%;
+    padding: 10px;
+    margin-top: -52%;
+    background-color: #CEE6F0;
+}
+
+#offer{
+    margin-bottom: 300px;
+    width: 29%;
+    height: 30%;
+}
+.outerFooter{
+    background-color: #CEE6F0;
+}
+/*div-Styling the div as Footer */
+.footer{
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    column-count: 4;
+    column-rule: 1px solid white;
+    color: #1675AD;
+}
+/*Footer tags of color #1675AD*/
+.footer a{
+    text-decoration: none;
+    color: #1675AD;
+}
